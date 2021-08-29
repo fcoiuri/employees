@@ -1,4 +1,4 @@
-package com.fcoiuri.employees.domain;
+package com.example.employeemanager.domain;
 
 import javax.persistence.*;
 import java.io.Serializable;

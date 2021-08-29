@@ -1,13 +1,13 @@
-package com.fcoiuri.employees;
+package com.example.employeemanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EmployeesApplication {
+public class EmployeemanagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EmployeesApplication.class, args);
+		SpringApplication.run(EmployeemanagerApplication.class, args);
 	}
 
 }

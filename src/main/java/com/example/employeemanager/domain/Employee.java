@@ -15,6 +15,7 @@ public class Employee implements Serializable {
     private String phone;
     private String jobTitle;
     private String imageUrl;
+    private String employeeCode;
 
     public Employee() {
     }
@@ -74,6 +75,14 @@ public class Employee implements Serializable {
 
     public void setImageUrl(String imageUrl) {
         this.imageUrl = imageUrl;
+    }
+
+    public String getEmployeeCode() {
+        return employeeCode;
+    }
+
+    public void setEmployeeCode(String employeeCode) {
+        this.employeeCode = employeeCode;
     }
 
     @Override

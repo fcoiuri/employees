@@ -8,8 +8,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
+import javax.transaction.Transactional;
 
 @Service
+@Transactional
 public class EmployeeService {
     private final EmployeeRepo employeeRepo;
 
